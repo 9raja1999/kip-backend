@@ -5,7 +5,7 @@ import { LoginDto, RegisterDto } from '@app/shared';
 export class AuthService {
   login(data: LoginDto) {
     return {
-      message: 'Login successful',
+      message: 'Login succeul',
       data: data,
     };
   }
