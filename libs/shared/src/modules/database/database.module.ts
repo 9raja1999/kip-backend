@@ -13,6 +13,7 @@ import { User, Organization, OrganizationUser } from './entities';
         username: configService.get('DB_USER'),
         password: configService.get('DB_PASSWORD'),
         database: configService.get('DB_NAME'),
+        
         entities: [User, Organization, OrganizationUser],
         synchronize: process.env.NODE_ENV !== 'production',
         logging: process.env.NODE_ENV !== 'production',
